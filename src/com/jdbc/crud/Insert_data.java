@@ -5,9 +5,9 @@ import java.util.*;
 public class Insert_data {
     public void ID(){
         try {
-            String url = "jdbc:mysql://localhost/Java";
-            String uname = "root";
-            String pass = "Yunish@2059";
+            String url = "jdbc:mysql://localhost/";
+            String uname = "";
+            String pass = "";
 
             Connection con = DriverManager.getConnection(url,uname,pass);
 
