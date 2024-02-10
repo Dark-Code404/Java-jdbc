@@ -6,8 +6,8 @@ public class Delete_data {
     public void Dd(){
         try{
             String url="jdbc:mysql://localhost/Java";
-            String name = "root";
-            String password ="Yunish@2059";
+            String name = "";
+            String password ="";
 
             Connection con = DriverManager.getConnection(url,name,password);
             String q ="delete from employee_table where id =?";
