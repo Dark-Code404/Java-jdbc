@@ -8,9 +8,9 @@ import java.sql.Statement;
 public class Display_data {
     public void disD(){
         try {
-            String url = "jdbc:mysql://localhost/Java";
-            String uname = "root";
-            String pass = "Yunish@2059";
+            String url = "jdbc:mysql://localhost/";
+            String uname = "";
+            String pass = "";
 
             Connection con = DriverManager.getConnection(url, uname, pass);
             Statement s = con.createStatement();
